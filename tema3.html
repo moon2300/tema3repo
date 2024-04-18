@@ -1,98 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="tema3.css" />
-  </head>
-  <!--menu navbar-->
-  <nav>
-    <!--logoer-->
+    <link rel="stylesheet" href="tester.css" />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
-    <img class="redbulllogo" src="picz/redbulllogo.png" alt="" />
+</head>
 
-    <img class="rflogo" src="picz/rflogo.png" alt="" />
-
-    <!--Om os knap-->
-    <ul>
-      <li>
-        <a href="omos.html"> Om os</a>
-      </li>
-    </ul>
-  </nav>
-
-  <body>
-    <div id="" class="scroll-view">
-      <div class="image-container">
-        <section class="image">
-          <!--video div-->
-          <div class="thumbnail">
-            <img src="picz/filler.png" />
-          </div>
-
-          <section class="skrift">
-            <!--overskrift-->
-            <h1 class="overskrift">info</h1>
-
-            <!--produkt beskrivelse-->
-            <p class="info">infinfoinfoinfpinfo</p>
-          </section>
-        </section>
-      </div>
-
-      <div
-        style="
-          height: auto;
-          padding-top: 4rem;
-          width: 100%;
-          display: flex;
-          margin-right: auto;
-        "
-      >
-        <!--overskrift-->
-        <div
-          style="
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-            gap: 0.5rem;
-          "
-        >
-          <h1>Konkurrence</h1>
-
-          <!--Multipel choice-->
-
-          <p>Hvilken smag er festival flavor?</p>
-          <div class="radio-button-container">
-            <input class="Knap" type="radio" name="sp1" value="lakrids" />
-            <label for="lakrids"> Kakao og lakrids </label> <br />
-            <input class="Knap" type="radio" name="sp1" value="æble" />
-            <label for="æble"> Kaki & Lime </label> <br />
-            <input class="Knap" type="radio" name="sp1" value="kakao" />
-            <label for="kakao"> Øl </label> <br />
-          </div>
+<body>
+    <!-- Melike-->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="picz/redbulllogo.png" alt="Logo 1" class="redbull">
+            <img src="picz/rflogo.png" alt="Logo 2" class="rflogo">
         </div>
 
-        <div class="redbullDåse">
-          <img src="picz/redbullDåse.png" />
+    </nav>
+    <!--amar-->
+    <!--video-->
+    <div class="video-container">
+        <video width="640" height="360" controls>
+            <source src="picz/tema3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="video-content">
+            <h2>Red Bull Festival Flavour</h2>
+            <p>Red Bull Limited Edition, er smagen af festival.
+                Festival flavour giver dig følelsen af fest og godt humør.
+                Gæt smagen og vær med i en konkurrence om 2 biletter til Roskilde Festival.</p>
         </div>
-      </div>
     </div>
 
-    <!-- Oplysninger -->
 
-    <footer style="">
-      <div class="info">
-        <p class="adresse">Lyngvej 21</p>
+ <!--Silke-->
+    <!--second page-->
+    <div class="second-page">
 
-        <p class="tlf">+45 12 34 56 78</p>
+        <!--multiple choice-->
 
-        <p class="postnummer">4000 Køge</p>
+        <div class="multiple-choice">
+            <h2 class="spørgesmål">Hvilken smag er festival flavor?</h2>
 
-        <p class="mail">redbull@gmail.com</p>
-      </div>
-    </footer>
-  </body>
+            <input class="Knap" type="radio" name="sp1" value="lakrids" />
+            <label for="lakrids"> Kakao og lakrids </label> <br />
+
+            <input class="Knap" type="radio" name="sp1" value="æble" />
+            <label for="æble"> Kaki & Lime </label> <br />
+
+            <input class="Knap" type="radio" name="sp1" value="kakao" />
+            <label for="kakao"> Øl </label> <br />
+
+            <!-- Submit button -->
+            <button class="submit">indsend</button>
+        </div>
+<!--Shairaz-->
+        <div class="rbdåse">
+
+            <!-- Picture at bottom right center -->
+            <img src="picz/redbullDåse.png" class="dåse">
+
+        </div>
+<!--Josefine-->
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                Copyright &copy
+            </p>
+            <p> Lyngvej 21, køge</p>
+            <p> +45 12 34 56 78</p>
+            <p> redbull@gmail.com</p>
+
+        </footer>
+
+</body>
+
 </html>
