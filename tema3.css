@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* menu navbar*/
+nav{
+    display: grid;
+    grid-template-columns:  10% 10% 70%;
+}
+/*logoer*/
+
+.rflogo{
+   
+    height: 70px;
+   border-left: 0%;
+   padding-left: 0%;
+   margin-left: 0%;
+
+}
+
+.redbulllogo{
+    height: 50px;
+    border-right: 0px;
+    padding-right: 0px;
+}
+
+.image-container{
+    margin-left: 0px;
+    width: 100%;
+}
+
+/*om os*/
+ul li a{
+    padding-left: 800px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    
+    width: 100px;
+}
+
+
+
+/*konkurrence*/
+
+
+
+
+
+/* baggrundsbillede */
+body{
+    background-image: url(picz/BR1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+/* video box */
+.thumbnail img{
+    width: 600px;
+    height: 300px;
+    
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 345px;
+}
+
+/*text box*/
+
+.skrift{
+    padding-left: 100px;
+
+}
+
+.Konkurrence {
+
+}
+
+.redbullDåse {
+    height:200px;
+    width:100%;
+    padding-left: 21%;
+    flex-basis: 100%;
+}
+
+.redbullDåse img{
+    width: 300px;
+    height: 1050px;
+    padding-right: 20%;
+    padding-bottom: 32rem;
+    
+}
+
+.scroll-view{
+    overflow:scroll; 
+    height: 100%; 
+    width: 100%; 
+    flex-direction: column; 
+    padding: 3rem;
+
+}
+
+.info{
+    height: auto;
+    width: 40%;
+    flex-direction: column;
+    padding-left: 3rem;
+    font-size: medium;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.adresse{
+    text-decoration-color: aliceblue;
+}
+input {
+    color:#db800a;
+}
+
+input[type=radio]:checked{
+    accent-color: rgb(255, 102, 0);
+}
+
+.radio-button-container label {
+    margin-left: 0.5rem;
+}
